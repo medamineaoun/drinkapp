@@ -1,0 +1,19 @@
+.col-4 img:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    
+    .col-4{
+        width: 90%;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    .abc{
+        width: 90%;
+    }
+    .abc img{
+        width: 90%;
+    }
+}

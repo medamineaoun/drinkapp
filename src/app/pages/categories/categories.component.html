@@ -1,0 +1,13 @@
+<div class="container">
+
+    <div class="">
+        <div class="" *ngFor="let c of categories">
+            <div class="card" *ngIf="verif(c['strCategory'])">
+                <a routerLink="/categorie/cocktails/{{c['strCategory']}}" class="btn btn-warning">
+                    <h1>{{c['strCategory']}}</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
